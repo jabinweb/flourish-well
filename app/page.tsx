@@ -248,7 +248,7 @@ export default function FlourishWellPage() {
 
       <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-emerald-600 to-teal-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+    <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             <div className="text-center animate-fade-in-up" style={{ animationDelay: '100ms' }}>
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/20 transition-all hover:scale-105">
                 <TrendingUp className="h-10 w-10 text-white mx-auto mb-4" />
