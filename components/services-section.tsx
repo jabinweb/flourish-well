@@ -44,7 +44,7 @@ const services: Service[] = [
     icon: <Heart className="h-6 w-6 sm:h-7 sm:w-7" />,
     title: 'Individual Counselling & Therapy Sessions',
     shortDescription: 'A safe space to heal, grow, and be heard',
-    fullDescription: 'I offer one-on-one counselling in a safe, confidential, and non-judgmental space where individuals can explore their emotions and experiences with support and clarity. Whether you\'re navigating a difficult season or seeking clarity and inner strength, I support you in moving from overwhelm to resilience, and from survival to flourishing.',
+    fullDescription: 'I offer one-on-one counselling in a safe, confidential, and non-judgmental space where individuals can explore their emotions and experiences with support and clarity. Whether you\'re navigating a difficult season or seeking clarity and inner strength, I support you in moving from overwhelm to resilience, and from survival to restoration.',
     highlights: ['Anxiety & stress management', 'Depression support', 'Personal growth & clarity'],
     bgColor: 'bg-emerald-50',
     iconColor: 'text-emerald-600',
@@ -93,17 +93,6 @@ const services: Service[] = [
     bgColor: 'bg-emerald-50',
     iconColor: 'text-emerald-600',
     hoverColor: 'group-hover:bg-emerald-100'
-  },
-  {
-    id: '6',
-    icon: <Mic className="h-6 w-6 sm:h-7 sm:w-7" />,
-    title: 'Keynotes & Conference Speaking',
-    shortDescription: 'Inspiring, research-based talks on wellbeing and resilience',
-    fullDescription: 'I deliver keynote sessions and conference talks on wellbeing, mental health, resilience, school systems, and organizational culture. My speaking style blends research, real-world experience, and practical strategies that inspire action and reflection. I have presented at national and international platforms including IPPA, ISCA, LBSNAA, Rotary International, SPAN Symposium, and the Restorative Justice Council UK. Whether addressing educators, leaders, parents, or mental health professionals, my sessions are engaging, evidence-based, and transformative.',
-    highlights: ['IPPA & ISCA conferences', 'Rotary International', 'LBSNAA & symposiums'],
-    bgColor: 'bg-teal-50',
-    iconColor: 'text-teal-600',
-    hoverColor: 'group-hover:bg-teal-100'
   },
   {
     id: '7',
@@ -501,7 +490,7 @@ export function ServicesSection() {
                 Thank you for booking with us. We&apos;ll send a confirmation email to <strong>{bookingData.email}</strong> shortly.
               </p>
               <p className="text-sm text-gray-500 mb-6">
-                Dr. Binu Thomas will reach out to you within 24 hours to confirm your appointment.
+                Our team will reach out to you within 24 hours to confirm your appointment.
               </p>
               <Button
                 onClick={closeBookingModal}

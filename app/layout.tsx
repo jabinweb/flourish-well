@@ -5,12 +5,12 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://flourishwell.com'),
+  metadataBase: new URL('https://restorationpath.com'),
   title: {
-    default: 'Flourish Well - Professional Counselling & Mental Health Services',
-    template: '%s | Flourish Well'
+    default: 'Restoration Path - Professional Counselling & Mental Health Services',
+    template: '%s | Restoration Path'
   },
-  description: 'Professional counselling and wellbeing services by Dr. Binu Thomas. Over 20 years of experience offering individual therapy, family counselling, workplace wellbeing, and mental health support across India and internationally.',
+  description: 'Professional counselling and wellbeing services. Over 20 years of experience offering individual therapy, family counselling, workplace wellbeing, and mental health support across India and internationally.',
   keywords: [
     'counselling psychologist',
     'mental health services',
@@ -18,27 +18,26 @@ export const metadata: Metadata = {
     'wellbeing',
     'family counselling',
     'workplace wellbeing',
-    'Dr. Binu Thomas',
     'individual therapy',
     'parent coaching',
     'school consultancy',
     'online counselling'
   ],
-  authors: [{ name: 'Dr. Binu Thomas' }],
-  creator: 'Dr. Binu Thomas',
-  publisher: 'Flourish Well',
+  authors: [{ name: 'Restoration Path' }],
+  creator: 'Restoration Path',
+  publisher: 'Restoration Path',
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://flourishwell.com',
-    title: 'Flourish Well - Professional Counselling & Mental Health Services',
-    description: 'When the mind thrives, life flourishes. Professional mental health support by Dr. Binu Thomas with 20+ years of experience.',
-    siteName: 'Flourish Well',
+    url: 'https://restorationpath.com',
+    title: 'Restoration Path - Professional Counselling & Mental Health Services',
+    description: 'Guiding you toward healing and renewal. Professional mental health support with 20+ years of experience.',
+    siteName: 'Restoration Path',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Flourish Well - Professional Counselling & Mental Health Services',
-    description: 'When the mind thrives, life flourishes. Professional mental health support by Dr. Binu Thomas.',
+    title: 'Restoration Path - Professional Counselling & Mental Health Services',
+    description: 'Guiding you toward healing and renewal. Professional mental health support.',
   },
   robots: {
     index: true,

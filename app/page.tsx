@@ -40,7 +40,7 @@ import { EventsSection } from '@/components/events-section';
 import { ServicesSection } from '@/components/services-section';
 import { GallerySection } from '@/components/gallery-section';
 
-export default function FlourishWellPage() {
+export default function RestorationPathPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [formData, setFormData] = useState({
     firstName: '',
@@ -100,7 +100,7 @@ export default function FlourishWellPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-2">
               <Leaf className="h-7 w-7 text-emerald-600" />
-              <span className="text-xl font-semibold text-gray-900">Flourish Well</span>
+              <span className="text-xl font-semibold text-gray-900">Restoration Path</span>
             </div>
 
             <div className="hidden md:flex items-center gap-8">
@@ -156,7 +156,7 @@ export default function FlourishWellPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-gray-900 mb-8 tracking-tight animate-fade-in-up">
-              Flourish Well
+              Restoration Path
             </h1>
             
             <p className="text-xl sm:text-2xl md:text-3xl text-gray-600 mb-4 font-light leading-relaxed animate-fade-in-up" style={{ animationDelay: '150ms' }}>
@@ -164,7 +164,7 @@ export default function FlourishWellPage() {
             </p>
             
             <p className="text-base sm:text-lg text-gray-500 mb-12 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '300ms' }}>
-              Dr. Binu Thomas · Ph.D. in Counselling Psychology · 20+ Years Experience
+              Expert Counselling Psychology · 20+ Years Experience
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-fade-in-up" style={{ animationDelay: '450ms' }}>
@@ -187,7 +187,7 @@ export default function FlourishWellPage() {
 
             <div className="pt-8 border-t border-gray-200 animate-fade-in" style={{ animationDelay: '600ms' }}>
               <p className="text-sm text-gray-500 italic">
-                &quot;When the mind thrives, life flourishes.&quot;
+                &quot;Guiding you toward healing and renewal.&quot;
               </p>
             </div>
           </div>
@@ -200,10 +200,10 @@ export default function FlourishWellPage() {
             <div className="order-2 lg:order-1 animate-slide-in-left">
               <Badge className="mb-4 bg-emerald-100 text-emerald-800 hover:bg-emerald-100 text-xs">About</Badge>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Dr. Binu Thomas
+                Our Approach
               </h2>
               <p className="text-base sm:text-lg text-gray-600 mb-4 leading-relaxed">
-                Counselling Psychologist, Wellbeing Leader, and passionate advocate for mental health with <strong>over 20 years of professional experience</strong> across India and abroad.
+                Professional Counselling Psychologists and Wellbeing Leaders, passionate advocates for mental health with <strong>over 20 years of combined professional experience</strong> across India and abroad.
               </p>
               <blockquote className="border-l-4 border-emerald-600 pl-4 sm:pl-6 py-3 mb-6 italic text-gray-700 bg-white rounded-r-lg text-sm sm:text-base">
                 &quot;For me, wellbeing is not an add-on; it is the very core of every individual&apos;s journey to happiness and fulfilment.&quot;
@@ -232,12 +232,12 @@ export default function FlourishWellPage() {
             </div>
 
             <div className="order-1 lg:order-2 animate-slide-in-right">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-square max-w-md mx-auto lg:max-w-none">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-video lg:aspect-square max-w-md mx-auto lg:max-w-none">
                 <Image
-                  src="/Generated Image October 18, 2025 - 2_55PM.png"
-                  alt="Dr. Binu Thomas"
+                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&h=800&fit=crop&crop=faces"
+                  alt="Professional Counselling"
                   fill
-                  className="object-cover"
+                  className="object-cover object-top lg:object-center"
                   priority
                 />
               </div>
@@ -248,7 +248,7 @@ export default function FlourishWellPage() {
 
       <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-emerald-600 to-teal-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             <div className="text-center animate-fade-in-up" style={{ animationDelay: '100ms' }}>
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/20 transition-all hover:scale-105">
                 <TrendingUp className="h-10 w-10 text-white mx-auto mb-4" />
@@ -302,7 +302,7 @@ export default function FlourishWellPage() {
                   ))}
                 </div>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 leading-relaxed italic">
-                  &quot;Dr. Binu&apos;s compassionate approach helped me navigate through my anxiety. Her guidance was transformative and life-changing.&quot;
+                  &quot;The compassionate approach helped me navigate through my anxiety. The guidance was transformative and life-changing.&quot;
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="h-10 w-10 bg-emerald-100 rounded-full flex items-center justify-center">
@@ -346,7 +346,7 @@ export default function FlourishWellPage() {
                   ))}
                 </div>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 leading-relaxed italic">
-                  &quot;Dr. Binu&apos;s workplace wellbeing program dramatically improved our team&apos;s mental health awareness and productivity.&quot;
+                  &quot;The workplace wellbeing program dramatically improved our team&apos;s mental health awareness and productivity.&quot;
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="h-10 w-10 bg-emerald-100 rounded-full flex items-center justify-center">
@@ -453,7 +453,7 @@ export default function FlourishWellPage() {
       <section className="py-16 sm:py-20 bg-emerald-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-white">
-            Start Your Journey to Flourishing
+            Start Your Journey to Restoration
           </h2>
           <p className="text-base sm:text-lg mb-8 text-emerald-50">
             Take the first step towards emotional wellbeing and personal growth today.
@@ -621,13 +621,13 @@ export default function FlourishWellPage() {
                 <h3 className="text-lg font-semibold text-gray-900 text-center mb-6">Other Ways to Connect</h3>
                 <div className="grid sm:grid-cols-2 gap-4">
                   <a
-                    href="mailto:contact@flourishwell.com"
+                    href="mailto:contact@restorationpath.com"
                     className="flex items-center justify-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors group"
                   >
                     <Mail className="h-5 w-5 text-emerald-600 group-hover:scale-110 transition-transform" />
                     <div className="text-left">
                       <div className="text-xs text-gray-500">Email Us</div>
-                      <div className="text-sm font-medium text-gray-900">contact@flourishwell.com</div>
+                      <div className="text-sm font-medium text-gray-900">contact@restorationpath.com</div>
                     </div>
                   </a>
                   <a
@@ -655,15 +655,15 @@ export default function FlourishWellPage() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Leaf className="h-7 w-7 text-emerald-400" />
-                <span className="text-xl font-semibold">Flourish Well</span>
+                <span className="text-xl font-semibold">Restoration Path</span>
               </div>
               <p className="text-sm text-gray-400 leading-relaxed mb-4">
                 Your partner in wellbeing and mental health. Helping individuals, families, and organizations thrive.
               </p>
               <div className="flex flex-col gap-2 text-sm text-gray-400">
-                <a href="mailto:contact@flourishwell.com" className="flex items-center gap-2 hover:text-emerald-400 transition-colors">
+                <a href="mailto:contact@restorationpath.com" className="flex items-center gap-2 hover:text-emerald-400 transition-colors">
                   <Mail className="h-4 w-4" />
-                  contact@flourishwell.com
+                  contact@restorationpath.com
                 </a>
                 <a href="tel:+919876543210" className="flex items-center gap-2 hover:text-emerald-400 transition-colors">
                   <Phone className="h-4 w-4" />
@@ -681,7 +681,7 @@ export default function FlourishWellPage() {
               <ul className="space-y-2 text-sm text-gray-400">
                 <li>
                   <button onClick={() => scrollToSection('about')} className="hover:text-emerald-400 transition-colors">
-                    About Dr. Binu
+                    About Us
                   </button>
                 </li>
                 <li>
@@ -722,7 +722,7 @@ export default function FlourishWellPage() {
           <Separator className="bg-gray-800 mb-6" />
 
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-            <p>&copy; {new Date().getFullYear()} Flourish Well. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Restoration Path. All rights reserved.</p>
             <div className="flex gap-6">
               <button className="hover:text-emerald-400 transition-colors">Privacy Policy</button>
               <button className="hover:text-emerald-400 transition-colors">Terms of Service</button>
@@ -730,7 +730,7 @@ export default function FlourishWellPage() {
           </div>
           
           <div className="text-center mt-6">
-            <p className="text-xs text-gray-500 italic">When the mind thrives, life flourishes.</p>
+            <p className="text-xs text-gray-500 italic">Guiding you toward healing and renewal.</p>
           </div>
         </div>
       </footer>

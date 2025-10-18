@@ -11,73 +11,73 @@ import { Button } from '@/components/ui/button';
 const galleryImages = [
   {
     id: 1,
-    src: '/gallery/5356223c433c799f8756c587b3f336fc.jpg',
+    src: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=600&fit=crop',
     alt: 'Workshop session with participants',
     category: 'Workshops'
   },
   {
     id: 2,
-    src: '/gallery/ed2756_0d67570d424c48cca887915952af2c87~mv2.jpg',
+    src: 'https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=600&h=600&fit=crop',
     alt: 'Professional counselling session',
     category: 'Counselling'
   },
   {
     id: 3,
-    src: '/gallery/ed2756_5a8811d8e902486590176d6d122c3958~mv2 (1).jpg',
+    src: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&h=600&fit=crop',
     alt: 'Group therapy session',
     category: 'Workshops'
   },
   {
     id: 4,
-    src: '/gallery/ed2756_62a3298776704744a6d197d6be980579~mv2 (1).jpg',
+    src: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=600&fit=crop',
     alt: 'Mental health awareness event',
     category: 'Events'
   },
   {
     id: 5,
-    src: '/gallery/ed2756_9af1164d5a4b4ac7ae3c52131e15596f~mv2.jpeg',
+    src: 'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=600&h=600&fit=crop',
     alt: 'Conference speaking engagement',
     category: 'Speaking'
   },
   {
     id: 6,
-    src: '/gallery/ed2756_a197b7f3e33c417b818e6eed7196d692~mv2 (1).jpeg',
+    src: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=600&fit=crop',
     alt: 'Team building workshop',
     category: 'Workshops'
   },
   {
     id: 7,
-    src: '/gallery/ed2756_adfd170448e94c00b7ea6a02f7867470~mv2.png',
+    src: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=600&fit=crop',
     alt: 'School wellbeing program',
     category: 'Schools'
   },
   {
     id: 8,
-    src: '/gallery/ed2756_c5b72f78e82d4312bfeb8c3a5c283904~mv2.jpeg',
+    src: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=600&fit=crop',
     alt: 'Professional training session',
     category: 'Training'
   },
   {
     id: 9,
-    src: '/gallery/ed2756_d5933c7562c44369baf38a6a2c447fb1~mv2 (1).jpeg',
+    src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&h=600&fit=crop',
     alt: 'Parent coaching workshop',
     category: 'Workshops'
   },
   {
     id: 10,
-    src: '/gallery/ed2756_e94c3e3222e64f07b77c02744407b09b~mv2.jpeg',
+    src: 'https://images.unsplash.com/photo-1560439514-4e9645039924?w=600&h=600&fit=crop',
     alt: 'Keynote presentation',
     category: 'Speaking'
   },
   {
     id: 11,
-    src: '/gallery/ed2756_eab466291c704e63aeb20388f30a4ee6~mv2.png',
+    src: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&h=600&fit=crop',
     alt: 'Workplace wellbeing session',
     category: 'Corporate'
   },
   {
     id: 12,
-    src: '/gallery/ed2756_ead8852d00d949c2ac38dd851393e6a9~mv2.jpeg',
+    src: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&h=600&fit=crop',
     alt: 'Community event',
     category: 'Events'
   }
